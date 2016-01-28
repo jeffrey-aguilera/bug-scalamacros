@@ -1,0 +1,13 @@
+# Mac
+.DS_Store
+
+# SBT
+target
+
+# JVM
+/hs_err_pid*
+*.hprof
+
+# Miscellaneous
+.*
+!/.gitignore
