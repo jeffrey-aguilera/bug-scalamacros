@@ -231,7 +231,7 @@ object boilerplate {
           //
           // This is converted to a block: final class $anon ...; new $anon()
           //
-          // But the ClassDef in this block does not have a symbol, which is causing an assertion failure in Typer.
+          // But ClassDef in this block does not have a symbol, causing an assertion failure in Typers.scala.
           //
           // -----------------------------------------------------------------------------------------------------------
 
